@@ -1,0 +1,75 @@
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\obj\Debug\Assembly-CSharp.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\MySql.Data.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\System.Data.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEditor.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEngine.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEngine.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEditor.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\2nd Periodo\obj\Debug\Assembly-CSharp.pdb
+C:\Users\A L U N O\Desktop\2nd Periodo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\A L U N O\Desktop\2nd Periodo\obj\Debug\Assembly-CSharp.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\obj\Debug\Assembly-CSharp.pdb
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\MySql.Data.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\System.Data.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEditor.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEngine.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEngine.xml
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEditor.xml
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\A L U N O\Desktop\2nd Periodo\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEditor.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEditor.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\obj\Debug\Assembly-CSharp.dll
+C:\Users\FLAVIO-CG\Desktop\Unity\Projetos\GGJ2017\obj\Debug\Assembly-CSharp.pdb
