@@ -3,8 +3,6 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class PlayerInputController : MonoBehaviour {
-
- 
 	Rigidbody2D rgd;
 	public float spd;
 	public bool LandingState;
@@ -25,7 +23,6 @@ public class PlayerInputController : MonoBehaviour {
     AudioSource MyAudio;
     private GameObject sonar;
 
-
 	// Use this for initialization
 	void Start () {
         MyAudio = GetComponent<AudioSource>();
@@ -37,22 +34,17 @@ public class PlayerInputController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Damage == true)
-        {
-
+        if (Damage == true){
             MyAudio.Play();
         }
 
         anim.SetBool("Landing", LandingState);
 		anim.SetBool("Damage", Damage);
 
-		Damage = false;
-
-       
+		Damage = false;       
 
 		// Se está voando :
 		if (LandingState == false) {
-
 
 			float up = Input.GetAxis ("Vertical") * spd;
 			float side = Input.GetAxis ("Horizontal") * spd;
@@ -60,39 +52,28 @@ public class PlayerInputController : MonoBehaviour {
 
 
             if (Input.GetAxis("Horizontal")>0 ){
-			transform.localScale = new Vector3(Scalex , Scaley, Scalez);
-	//			transform.eulerAngles = new Vector3 (0,0,0);
+				transform.localScale = new Vector3(Scalex , Scaley, Scalez);
 			}
-            if (Input.GetAxis("Horizontal") < 0)
-            { 
-			transform.localScale = new Vector3(-Scalex , Scaley, Scalez);
-			//	transform.eulerAngles = new Vector3 (0,180,0);
-
+            if (Input.GetAxis("Horizontal") < 0){ 
+				transform.localScale = new Vector3(-Scalex , Scaley, Scalez);
             }
-
-
         }
+
 		// Se está no ponto de observação .
 		if (LandingState == true) {
 			//LandingTime -= Time.deltaTime;
-						spd =0;
+			spd =0;
 
-            if (Input.GetAxis("Vertical") < 0 && LandingState == true)
-            {
+            if (Input.GetAxis("Vertical") < 0 && LandingState == true){
                 LandingState = false;
-                sonar.gameObject.SetActive(false);
+				sonar.gameObject.SetActive(false);
             }
-
         }
 
-
 		if (LandingState==false) {
-
-		//	LandingState = false;
-		spd = spd2; 
+			//	LandingState = false;
+			spd = spd2; 
 		}
-
-
        
 		if (LeverOn == true) {
 			DoorTimer -= Time.deltaTime;
@@ -102,15 +83,16 @@ public class PlayerInputController : MonoBehaviour {
 			DoorTimer = DoorTimer2;
 		}
 		if (Input.GetKeyDown(KeyCode.Escape)){
-			Debug.Log("Go to Game");
 			MenuGame();
 		}
 
     }
+
     void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == LandingTag && LandingState == false) {
 			LandingState = true;
-            sonar.gameObject.SetActive(true);
+			sonar.gameObject.SetActive(true);
+			Debug.Log ("True");
 		}
 		if (col.gameObject.tag == "Spike") {
 			this.gameObject.transform.position = MyLevelmanager.currentCheckPoint;

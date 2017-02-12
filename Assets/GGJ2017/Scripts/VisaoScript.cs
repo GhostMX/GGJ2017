@@ -20,36 +20,25 @@ public class VisaoScript : MonoBehaviour {
 		Playerinput = Player.GetComponent<PlayerInputController>();
 		//Sensor = GameObject.Find ("Light");
 		ThisSonarCode = Sensor.GetComponent<SonarCode>();
-		VelocidadeCrescimentoVisao = 1;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		this.gameObject.transform.position = new Vector3 (Player.transform.position.x, Player.transform.position.y + AlinhamentoY, Player.transform.position.z);
 
-
 		if (Playerinput.LandingState == false && ThisSonarCode.GritoAtivo == false) {
 			MyCollider.radius -= Time.deltaTime * VelocidadeCrescimentoVisao;
-
-
-		} else {
-
+		}else{
 			MyCollider.radius += Time.deltaTime * VelocidadeCrescimentoVisao;
 		}
 
 		if (MyCollider.radius < VisaoRadiusMin) {
-
 			MyCollider.radius = VisaoRadiusMin;
 		}
+
 		if (MyCollider.radius > VisaoRadiusMax) {
 
 			MyCollider.radius = VisaoRadiusMax;
 		}
-
-
-
-
 	}
-
-
 }

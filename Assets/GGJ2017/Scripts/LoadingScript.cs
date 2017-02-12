@@ -10,17 +10,15 @@ public class LoadingScript : MonoBehaviour {
 	public Text percent;
 
 	void Start () {
-
 		loadingBar.fillAmount = 0;
-	
 	}
-
 
 	void Update () {
 	
 		if (loadingBar.fillAmount <= 1) {
 			loadingBar.fillAmount += 1.0f / loadingTime * Time.deltaTime;
 		}
+
 		if (loadingBar.fillAmount == 1.0f) {
 			SceneManager.LoadScene("Menu", LoadSceneMode.Single);
 			Destroy(gameObject);
