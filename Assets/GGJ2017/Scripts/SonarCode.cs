@@ -9,6 +9,7 @@ public class SonarCode : MonoBehaviour {
     public int VisionFlying;
     public int LandingVision;
     public int RaioSpd; 
+	public int RaioSpdNegativo;
 	AudioSource MyAudio;
 	public float ShoutCooldown;
 	public float FinalShoutCooldown;
@@ -17,7 +18,7 @@ public class SonarCode : MonoBehaviour {
 
 	public bool PressedActionButton;
 	public float TimetoReset;
-	public float TimetoReset2;
+	public float TempodaLuz;
 
 
     // Use this for initialization
@@ -28,17 +29,20 @@ public class SonarCode : MonoBehaviour {
 		PressedActionButton = false;
 		MyAudio = GetComponent<AudioSource>();
 		GritoAtivo = false;
+		TimetoReset = TempodaLuz;
     }
 	
 	// Update is called once per frame
 	void Update () {
+
+
 
 		ShoutCooldown -= Time.deltaTime;
 		if (Input.GetAxis ("Jump") > 0f && ShoutCooldown < 0 && Playerinput.LandingState == false) {
 			MyAudio.Play ();
 			ShoutCooldown = FinalShoutCooldown;
 			PressedActionButton = true;
-		
+			TimetoReset = TempodaLuz;
 
 		} 
 
@@ -50,14 +54,14 @@ public class SonarCode : MonoBehaviour {
 
 		}
 
-		if (TimetoReset > TimetoReset2/2) {
+		if (TimetoReset > TempodaLuz/2) {
 
 		
 	//		TimetoReset = TimetoReset2;
 			Mylight.spotAngle += Time.deltaTime * RaioSpd;
 
 		}
-		if (TimetoReset < TimetoReset2 / 2) {
+		if (TimetoReset < TempodaLuz / 2) {
 
 			Mylight.spotAngle -= Time.deltaTime * RaioSpd;
 
@@ -65,7 +69,7 @@ public class SonarCode : MonoBehaviour {
 
 		if (TimetoReset < 0) {
 		
-			TimetoReset = TimetoReset2;	
+			TimetoReset = TempodaLuz;	
 			PressedActionButton = false;
 			GritoAtivo = false;
 		}
@@ -82,12 +86,12 @@ public class SonarCode : MonoBehaviour {
 
 				}
 		if (Playerinput.LandingState == false && PressedActionButton==false) {
-					Mylight.range = 500;
+					Mylight.range = 1000;
 					// Mylight.spotAngle = VisionFlying;
-					Mylight.spotAngle -= Time.deltaTime * RaioSpd;
+			Mylight.spotAngle -= Time.deltaTime * RaioSpdNegativo ;
 				}
 				if (Mylight.spotAngle > VisionFlying && Playerinput.LandingState == false) {
-					Mylight.spotAngle -= Time.deltaTime * 10;
+			Mylight.spotAngle -= Time.deltaTime * RaioSpdNegativo;
 					//Mylight.spotAngle = VisionFlying + 1;
 				}
 				if (Mylight.spotAngle < VisionFlying) {

@@ -34,11 +34,13 @@ public class SonarCodeRat : MonoBehaviour {
         {
             Mylight.range = 500;
             // Mylight.spotAngle = VisionFlying;
-            Mylight.spotAngle -= Time.deltaTime * RaioSpd;
+			Mylight.spotAngle -= Time.deltaTime * RaioSpd ;
+
         }
         if (Mylight.spotAngle >VisionFlying && Playerinput.LandingState==false) {
-            Mylight.spotAngle -= Time.deltaTime * 10;
+			Mylight.spotAngle -= Time.deltaTime * RaioSpd  ;
             //Mylight.spotAngle = VisionFlying + 1;
+
         }
         if (Mylight.spotAngle < VisionFlying) {
             Mylight.spotAngle = VisionFlying;
