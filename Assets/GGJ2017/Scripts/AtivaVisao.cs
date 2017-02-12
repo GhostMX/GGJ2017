@@ -5,6 +5,7 @@ using UnityEngine;
 public class AtivaVisao : MonoBehaviour {
     private bool ativaVisao = false;
     private SpriteRenderer sr;
+
 	// Use this for initialization
 	void Start () {
         sr = this.GetComponent<SpriteRenderer>();

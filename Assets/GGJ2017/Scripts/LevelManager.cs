@@ -39,8 +39,7 @@ public class LevelManager : MonoBehaviour {
         
     
 	}
-    public void RespawnPlayer()
-    {
+    public void RespawnPlayer(){
         player.transform.position = currentCheckPoint;
     }
 

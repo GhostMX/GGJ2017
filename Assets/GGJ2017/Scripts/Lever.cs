@@ -32,35 +32,15 @@ public class Lever : MonoBehaviour {
         }
 
         
-        if (timer <TimeToDoorBack/2 && Playerinput.LeverOn == true)
-        {
+        if (timer <TimeToDoorBack/2 && Playerinput.LeverOn == true){
             transform.Translate(new Vector2(0, spd));
-            
-           
-           
         }
-        if (timer >= TimeToDoorBack/2 && Playerinput.LeverOn == true)
-        {
-            transform.Translate(new Vector2(0, -spd));
-        
+
+        if (timer >= TimeToDoorBack/2 && Playerinput.LeverOn == true){
+            transform.Translate(new Vector2(0, -spd));        
         }
-        if (TimeToDoorBack <= -2)
-        {
+        if (TimeToDoorBack <= -2){
             TimeToDoorBack = 2f;
-        } 
-        //  if (gameObject.transform.position.y >HighVector)  {
-
-        //  spd = spd * -1;    
-
-        //  }
-        //   if (gameObject.transform.position.y < LowVector) {
-        //     transform.position = new Vector3(22.4f, -2, 0);
-
-        //   }
-
-
-
+        }
     }
-
-   
 }

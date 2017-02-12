@@ -5,8 +5,7 @@ public class CkeckPoint : MonoBehaviour {
     public LevelManager levelManager;
 
     // Use this for initialization
-    void Start()
-    {
+    void Start(){
         levelManager = FindObjectOfType<LevelManager>();
     }
 	
@@ -14,8 +13,7 @@ public class CkeckPoint : MonoBehaviour {
 	void Update () {
 	
 	}
-    void OnTriggerEnter2D(Collider2D other)
-    {
+    void OnTriggerEnter2D(Collider2D other){
 		if(other.CompareTag("Player")){
 			levelManager.currentCheckPoint = other.gameObject.transform.position;
         }

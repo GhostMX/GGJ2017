@@ -18,10 +18,7 @@ public class WingCheck : MonoBehaviour {
 	void Update () {
         if (Playerinput.LandingState == false){
             MyAudioSorce.mute = false;
-         //   MyAudioSorce.Play();
-
         }else {
-
             MyAudioSorce.mute = true;        
 		}
 	}
