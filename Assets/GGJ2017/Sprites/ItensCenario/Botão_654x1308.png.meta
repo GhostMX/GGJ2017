@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8f1a248e66325c54f90ccd750e29e4b3
-timeCreated: 1485715005
+timeCreated: 1487525512
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,10 +85,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 654
-        height: 597
+        width: 315
+        height: 315
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -96,12 +96,12 @@ TextureImporter:
       name: "Bot\xE3o_654x1308_1"
       rect:
         serializedVersion: 2
-        x: 654
+        x: 315
         y: 0
-        width: 654
-        height: 597
+        width: 315
+        height: 315
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
