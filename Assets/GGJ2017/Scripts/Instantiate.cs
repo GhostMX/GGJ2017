@@ -22,9 +22,6 @@ public class Instantiate : MonoBehaviour {
             GameObject Espinho = (GameObject)Instantiate(ObjetcToSpawn);
             Espinho.transform.position = SpawnPostion.transform.position;
             timertospawn = TimerSpawn;
-        }
-
-        
-    }
-   
+        }        
+    }   
 }

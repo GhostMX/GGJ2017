@@ -5,20 +5,16 @@ using UnityEngine;
 public class Lever : MonoBehaviour {
     PlayerInputController Playerinput;
     private GameObject Player;
-    BoxCollider2D MyCollider;
     public float Valor2DoorTimer;
     public float TimeToDoorBack;
     public float timer;
     AudioSource MyAudio;
-    
+	public float spd; 
 
-
-    public float spd; 
     // Use this for initialization
     void Start () {
         Player = GameObject.FindGameObjectWithTag("Player");
         Playerinput = Player.GetComponent<PlayerInputController>();
-        MyCollider = GetComponent<BoxCollider2D>();
         MyAudio = GetComponent<AudioSource>();
         
     }

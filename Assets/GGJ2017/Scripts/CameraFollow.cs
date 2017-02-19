@@ -3,15 +3,10 @@ using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
     public Transform target;
-    Camera mycam;
-	private GameObject Player;
-	PlayerInputController Playerinput;
 
     // Use this for initialization
     void Start () {
-        mycam = GetComponent<Camera>();
-		Player = GameObject.FindGameObjectWithTag ("Player");
-		Playerinput = Player.GetComponent<PlayerInputController> ();
+
 	}
 	
 	// Update is called once per frame

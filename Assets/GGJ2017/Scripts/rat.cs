@@ -32,7 +32,7 @@ public class rat : MonoBehaviour {
 		}
 		if (col.gameObject.tag == "Spike") {
 			Damage = true;
-			Destroy(gameObject, 0.5f);
+			Destroy(gameObject, 0.3f);
 			MyAudio.Play();
 		}
     }

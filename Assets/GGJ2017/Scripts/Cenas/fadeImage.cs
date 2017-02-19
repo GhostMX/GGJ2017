@@ -8,14 +8,12 @@ public class fadeImage : MonoBehaviour {
 	public float Color2;
 	public float Color3;
 	public float duracao;
-	private SpriteRenderer spriteR;
 	private Image img;
 	public float tempototal;
 	private float contador;
 
 	// Use this for initialization
 	void Start () {
-		spriteR = gameObject.GetComponent<SpriteRenderer>();
 		img =  GameObject.Find("Background").GetComponent<Image>();
 	}
 

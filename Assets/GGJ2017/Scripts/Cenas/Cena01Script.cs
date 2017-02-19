@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Cena01Script : MonoBehaviour {
-	private int Moedas = 0;
+	/*private int Moedas = 0;
 	private int Pontos = 0;
 	private int Vidas = 3;
 
@@ -35,6 +35,6 @@ public class Cena01Script : MonoBehaviour {
 	public void SomarPontos(){
 		Pontos += 100;
 		PontosT.text = Pontos.ToString();
-	}
+	}*/
 
 }

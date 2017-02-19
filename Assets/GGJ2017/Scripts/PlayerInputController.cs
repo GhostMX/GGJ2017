@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class PlayerInputController : MonoBehaviour {
-	Rigidbody2D rgd;
 	public float spd;
 	public bool LandingState;
 	public string LandingTag;
@@ -26,7 +25,6 @@ public class PlayerInputController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         MyAudio = GetComponent<AudioSource>();
-		rgd = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator>();
 		MyLevelmanager = FindObjectOfType<LevelManager> ();
         sonar = this.gameObject.transform.FindChild("Sonar").gameObject;
@@ -92,7 +90,6 @@ public class PlayerInputController : MonoBehaviour {
 		if (col.gameObject.tag == LandingTag && LandingState == false) {
 			LandingState = true;
 			sonar.gameObject.SetActive(true);
-			Debug.Log ("True");
 		}
 		if (col.gameObject.tag == "Spike") {
 			this.gameObject.transform.position = MyLevelmanager.currentCheckPoint;

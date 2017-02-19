@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AtivaVisao : MonoBehaviour {
-    private bool ativaVisao = false;
     private SpriteRenderer sr;
 
 	// Use this for initialization
@@ -16,6 +15,7 @@ public class AtivaVisao : MonoBehaviour {
 	void Update () {
 
 	}
+
     void OnTriggerEnter2D(Collider2D other) {
 		if (other.gameObject.CompareTag("Sensor")){
 			sr.enabled = true;

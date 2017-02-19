@@ -5,7 +5,7 @@ using UnityEngine;
 public class RockActivatedScript : MonoBehaviour {
 
     public GameObject prefabSonar;
-    private bool isActivated = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -16,18 +16,14 @@ public class RockActivatedScript : MonoBehaviour {
 		
 	}
 
-    public void throwRock(Vector3 sonar)
-    {
+    public void throwRock(Vector3 sonar){
         Rigidbody2D body = this.GetComponent<Rigidbody2D>();
         body.constraints = RigidbodyConstraints2D.None;
         body.AddForce(new Vector2(20f, 0));
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
+    public void OnTriggerEnter2D(Collider2D collision){
         Debug.Log(collision.gameObject.GetType());
         this.throwRock(collision.gameObject.transform.position);
     }
-
-
 }
